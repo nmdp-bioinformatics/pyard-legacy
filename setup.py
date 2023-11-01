@@ -30,7 +30,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pyard",
-    version="1.0.1",
+    version="1.0.2",
     author="Pradeep Bashyal",
     author_email="pbashyal@nmdp.org",
     python_requires=">=3.8",
@@ -46,10 +46,10 @@ setup(
     description="Legacy pyard. This is not the pyard, you're looking for. See py-ard",
     install_requires=None,
     license="LGPL 3.0",
-    long_description="Legacy pyard. This is not the pyard, you're looking for. See py-ard",
+    long_description="Legacy pyard. This is not the pyard, you're looking for. See [py-ard](https://pypi.org/project/py-ard/)",
     long_description_content_type="text/markdown",
     include_package_data=True,
     packages=find_packages(include=["pyard"]),
-    url="https://github.com/nmdp-bioinformatics/pyard_legacy",
+    url="https://github.com/nmdp-bioinformatics/pyard-legacy",
     zip_safe=False
 )
