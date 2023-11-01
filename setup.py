@@ -43,10 +43,16 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
     ],
-    description="Legacy pyard. This is not the pyard, you're looking for. See py-ard",
+    description="This is not the pyard you're looking for.",
     install_requires=None,
     license="LGPL 3.0",
-    long_description="Legacy pyard. This is not the pyard, you're looking for. See [py-ard](https://pypi.org/project/py-ard/)",
+    long_description="""
+    # Legacy pyard
+
+    This is not the `pyard` you're looking for. 
+
+    See [py-ard](https://pypi.org/project/py-ard/) for the real deal.
+    """,
     long_description_content_type="text/markdown",
     include_package_data=True,
     packages=find_packages(include=["pyard"]),
